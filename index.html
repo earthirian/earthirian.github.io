@@ -1,31 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Earthirian: Build Nations. Earn by Contribution. Not Speculation.</title>
+  <meta name="description" content="Earthirian is a text-based simulation game where players build nations from scratch using effort, innovation, and governance—not luck or speculation.">
+  <meta name="keywords" content="earthirian, erth, simulation game, build nation, blockchain game, governance, open world game, play to contribute, create tools, earn erth, eco-simulation, decentralized simulation game">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style.css">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Earthirian: Shape Your World" />
+  <meta property="og:description" content="Build a nation from scratch. Everything starts with you." />
+  <meta property="og:url" content="https://earthirian.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://earthirian.com/cover.jpg" />
 
-    <title>Earthirian</title>
-  </head>
-  <body>
-    <div class="container mt-5 pl-5">
-      <div class="row pt-5">
-        <div class="col-md-9 bg-brand jumbotron shadow mt-4">
-          <div class="py-5 px-5">
-            <h1>Earthirian</h1>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Earthirian: Shape Your World">
+  <meta name="twitter:description" content="Contribute. Govern. Build. A text-based, economy-driven simulation game.">
+  <meta name="twitter:image" content="https://earthirian.com/cover.jpg">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  </body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body { transition: background 0.5s ease; }
+    .day { background-color: #f8f9fa; color: #212529; }
+    .night { background-color: #121212; color: #f8f9fa; }
+  </style>
+</head>
+<body class="text-center py-5">
+
+  <header>
+    <h1 class="display-4 fw-bold text-success">Hello Earthirian</h1>
+  </header>
+
+  <main>
+    <p class="lead mt-4">By birth, you are. No permission needed—only a little reminder to realize your superpower.</p>
+    <p class="mt-4">Shape your world. Nothing exists until you make it.</p>
+    <p class="fw-light">Plant the first tree, forge the first tool, raise the first shelter.<br>Make... or break. The choice is yours.</p>
+    <a href="https://genesis.earthirian.com" class="btn btn-outline-success btn-lg mt-4">Enter Genesis</a>
+  </main>
+
+  <footer class="mt-5 text-muted">
+    &copy; 2025 Earthirian. All rights reserved.
+  </footer>
+
+  <script>
+    const hour = new Date().getHours();
+    document.body.classList.add((hour >= 6 && hour < 18) ? 'day' : 'night');
+  </script>
+</body>
 </html>
